@@ -1,4 +1,4 @@
-#ifndef _MATRIX_H_ 
+ï»¿#ifndef _MATRIX_H_ 
 #define _MATRIX_H_
 #include "Vector.h"
 
@@ -263,7 +263,7 @@ namespace Ray
 		return *this;
 	}
 
-	// ÏòÁ¿ºÍ¾ØÕóµÄÔËËã·ûÖØÔØ
+	// å‘é‡å’ŒçŸ©é˜µçš„è¿ç®—ç¬¦é‡è½½
 	__forceinline Vector3 operator * (const Vector3& vec, const Matrix33& mat)
 	{
 		return Vector3(vec.x*mat._11 + vec.y*mat._21 + vec.z*mat._31,
