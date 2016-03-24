@@ -263,7 +263,6 @@ namespace Ray
 		return *this;
 	}
 
-	/////////////////////
 	// 向量和矩阵的运算符重载
 	__forceinline Vector3 operator * (const Vector3& vec, const Matrix33& mat)
 	{
